@@ -149,6 +149,38 @@ h1 {
   padding: 20px;
 }
 
+.privacy_policy {
+  margin-top: 40px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 100px;
+  /* margin-top:  */
+  /* margin: 100px; */
+  padding: 20px;
+  font-weight: normal;
+  h1 {
+    font-size: 4vw;
+  }
+  a {
+    color: cornflowerblue;
+  }
+  a:hover {
+    color: orangered;
+  }
+}
+
+.privacy_table {
+  text-align: left;
+  /* padding: 2px; */
+  border-collapse: collapse;
+  table, th, td {
+    padding: 4px;
+    border: 1px solid;
+  }
+  /* border: thin; */
+  /* border: 1px solid; */
+}
+
 h2 {
   font-weight: normal;
 }
@@ -175,6 +207,18 @@ footer {
   margin: 0px;
   padding: 10px;
   font-size: 1vw;
+}
+
+.privacy_section {
+  a {
+    color: #f4f0ec;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  margin-bottom: 10px;
 }
 
 .footer_image_part {
